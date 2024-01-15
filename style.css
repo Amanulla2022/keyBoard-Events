@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.key-display {
+  border: 1px solid #ccc;
+  padding: 1.25rem;
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#pressed-key {
+  font-size: 3em;
+  color: green;
+}
+
+#key-code {
+  /* margin-top: 2rem; */
+  color: green;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+#key-history {
+  margin-top: 1rem;
+  color: blue;
+  font-size: 1.2em;
+}
+
+#key-history-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#key-history-list li {
+  margin: 0.5rem 0;
+  font-size: 1.1em;
+  background-color: black;
+  color: white;
+  width: fit-content;
+}
